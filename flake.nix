@@ -1,5 +1,5 @@
 {
-  description = "A flake providing a dev shell for PyTorch with CUDA and CUDA development using NVCC.";
+  description = "A flake providing a dev shell for an experimental project to convert MEG signals to fMRI images.";
   nixConfig = {
     extra-substituters = [
       "https://nix-community.cachix.org"
@@ -44,6 +44,7 @@
               pandas
               nibabel
               scikit-image
+              seaborn
               mne-patched
             ]
           ))
