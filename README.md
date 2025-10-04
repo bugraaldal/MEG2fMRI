@@ -1,1 +1,2 @@
 # MEG2fMRI
+Hello teacher, this might be a little issue but I use NixOS, which is a Linux distro. It lets you create these flake.nix files and is basically like Git but for an OS. In order to install the needed packages -and also be able to control the hyperparameters in some cases- run `nix develop`. 

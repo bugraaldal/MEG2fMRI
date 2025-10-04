@@ -36,6 +36,7 @@
             ps: with ps; [
               torchWithCuda
               torchvision
+              #  cupy
               pillow
               matplotlib
               tensorboard
